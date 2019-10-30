@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 1.25rem;
+  text-align: center;
+  background: rgb(240, 240, 240);
+  overflow: hidden;
+}
+
+.title {
+  margin: 1.55rem 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.55rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.btn--reload {
+  width: 3.125rem;
+  margin: 1.55rem 0;
+  padding: 0.75rem;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0.06rem 0.06rem 0.06rem rgb(190, 190, 190);
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.spinner {
+  position: absolute;
+  top: calc(50% - 1.55rem);
+  left: calc(50% - 1.55rem);
+  display: block;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
