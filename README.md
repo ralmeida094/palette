@@ -2,9 +2,7 @@
 
 A web app built with React for generating fonts and colors from Google Fonts and Colormind.
 
-## Demo
-
-[Demo]("https://ralmeida094-palette.herokuapp.com/")
+## [Demo](https://ralmeida094-palette.herokuapp.com/)
 
 ## Technologies
 
